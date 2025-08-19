@@ -656,7 +656,7 @@ def check_data_loo(p_n_list, muscle_name_list, per_freq=False):
 
 
 if __name__ == "__main__":
-    id_auto(p_n_list=[8], muscle_name_list=["biclong", "bicshort"], plot=False, save=True, per_freq=True)
-    #check_data_id(p_n_list=[3], muscle_name_list=["biclong", "bicshort"], per_freq=False)
+    #id_auto(p_n_list=[8], muscle_name_list=["biclong", "bicshort"], plot=False, save=True, per_freq=True)
+    #check_data_id(p_n_list=[2,3], muscle_name_list=["biclong", "bicshort"], per_freq=True)
     #loo_auto(p_n_list=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20], muscle_name_list=["biclong", "bicshort"], plot=False, save=True, per_freq=False)
-    check_data_loo(p_n_list=[3], muscle_name_list=["biclong", "bicshort"], per_freq=False)
+    check_data_loo(p_n_list=[4,5], muscle_name_list=["biclong", "bicshort"], per_freq=True)

@@ -1,3 +1,6 @@
+"""This class has been created to integrate the dynamics of the muscles with the passive torque in a BioRbdModel. This
+isn't working for now"""
+
 import numpy as np
 
 from casadi import vertcat, MX, SX, exp, Function
